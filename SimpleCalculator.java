@@ -3,12 +3,15 @@ public class SimpleCalculator {
     private double  firstNumber;
     private double secondNumber;
 
-
+//Setting up both variables first and second number
 
 public void setFirstNumber(double firstNumber){
 
     this.firstNumber = firstNumber;
 
+    
+    // Setting the first and second number through  
+    
 
 }
 
@@ -30,12 +33,12 @@ public double getFirstNumber(){
 public double getSecondNumber(){
 
     return secondNumber;
-
+// Getting the variables 
 
 
 }
 
-
+// Addition, Subtraction, Division and Multiplication methods with a return value.
 
 public double getAdditionResult() {
 
