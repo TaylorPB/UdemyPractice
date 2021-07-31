@@ -1,10 +1,10 @@
-import com.sun.javafx.image.BytePixelSetter;
+import com.sun.javafx.image.BytePixelSetter;  //Import I fat fingered into my code.
 
 public class Person {
 
 
     private String firstName;
-    private String lastName;
+    private String lastName;                 //Setting the variables
     private int age;
 
 public void setFirstName(String firstName){
@@ -29,7 +29,7 @@ public void setAge( int age){
 public int getAge() {
 
 
-    if(age <0 || age > 100 || age == 0) {
+    if(age <0 || age > 100 || age == 0) {   // if someone is less than 0 or equal to 0 it will return a 0 in the results.
 
 
         age = 0;
@@ -43,13 +43,13 @@ return age;
 
 }
 public boolean isTeen(){
-    if(age > 12 && age < 20){
+    if(age > 12 && age < 20){     //Checks to see if the user is a teenager
         return true;
     }
     return false;
 }
 public String getFullName(){
-    if(firstName.isEmpty() && lastName.isEmpty()){
+    if(firstName.isEmpty() && lastName.isEmpty()){   // Puts firstName and Last name together and will spit out an error is both(either or) variables are empty 
         return "";
     }
     else if(firstName.isEmpty()){
@@ -73,7 +73,8 @@ class Check{
 
 
 
-
+// Basic main class checker
+    
     public static void main(String args[]){
 
 
